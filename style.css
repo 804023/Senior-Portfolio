@@ -1,0 +1,14 @@
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.cert-item {
+    text-align: center;
+}
+.cert-item img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
